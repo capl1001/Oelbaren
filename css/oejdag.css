@@ -1,0 +1,12 @@
+body {
+  background-color: var(--color-bg2);
+}
+/* mobile-first */
+
+/* Desktop */
+@media (min-width: 800px) {
+  .menuItem {
+    color: var(--color-h2);
+    text-decoration: none;
+  }
+}

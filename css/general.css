@@ -9,3 +9,38 @@
   --color-p: #000;
   --color-burgermenu: #fff9e5;
 }
+/* Generalle styles */
+body {
+  margin: 0;
+  font-family:;
+  background-color: var(--color-bg1);
+  color: var(--color-p);
+}
+h1,
+h2,
+h3 {
+  font-family:;
+  color: var(--color-h2);
+}
+
+/* mobile-first */
+
+/* burger menu */
+
+/* Desktop */
+@media (min-width: 800px) {
+  /* nav menu */
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin-right: 2rem;
+    padding: 0;
+  }
+  .menuItem {
+    color: var(--color-burgermenu);
+    text-decoration: none;
+  }
+}
